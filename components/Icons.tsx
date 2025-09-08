@@ -41,7 +41,7 @@ export const SoyIcon = createIcon<IconProps>(({ className, title }) => (
 // FIX: Removed trailing comma from generic type argument list.
 export const GlutenIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path d="M10 2c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM9 14.5a1.5 1.5 0 01-3 0V12a1.5 1.5 0 013 0v2.5zm1.5-3a1.5 1.5 0 010-3H12V7a1.5 1.5 0 013 0v1.5h-1.5a1.5 1.5 0 010 3z" />
+    <path d="M240 80a40 40 0 0 0-40-40H48a40 40 0 0 0-16 76.65V200a16 16 0 0 0 16 16h152a16 16 0 0 0 16-16v-83.35A40.06 40.06 0 0 0 240 80M48 120a8 8 0 0 0 0-16a24 24 0 0 1 0-48h96a24 24 0 0 1 0 48a8 8 0 0 0 0 16v80H48Zm152-16a8 8 0 0 0 0 16v80h-40v-83.35A40 40 0 0 0 176 56h24a24 24 0 0 1 0 48" />
   </BaseIcon>
 ));
 
