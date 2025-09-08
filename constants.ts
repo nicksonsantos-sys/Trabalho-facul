@@ -7,7 +7,7 @@ export const MENU_DATA: MenuSection[] = [
     title: 'Entradas',
     items: [
       {
-        name: 'Edamame Olá',
+        name: '123 Edamame Olá',
         description: 'Soja verde no vapor, finalizada com sal marinho.',
         tags: { isVegan: true, isGlutenFree: true },
         allergens: { hasSoy: true },
