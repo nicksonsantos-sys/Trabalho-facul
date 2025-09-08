@@ -27,16 +27,6 @@ export const MENU_DATA: MenuSection[] = [
         description: 'Pastéis japoneses de legumes, cozidos e grelhados.',
         tags: { isVegan: true },
       },
-      {
-        name: 'Temaki Vegano',
-        description: 'Cone de alga com pepino, cenoura, manga e abacate.',
-        tags: { isVegan: true, isGlutenFree: true },
-      },
-      {
-        name: 'Sashimi de Tofu Defumado',
-        description: 'Tofu fatiado com molho ponzu cítrico.',
-        tags: { isVegan: true, isGlutenFree: true },
-      },
     ],
   },
   {
@@ -92,6 +82,16 @@ export const MENU_DATA: MenuSection[] = [
         name: 'Veggie Roll',
         description: 'Pepino, manga, cenoura, avocado, cream cheese.',
         tags: { isVegan: true },
+      },
+            {
+        name: 'Temaki Vegano',
+        description: 'Cone de alga com pepino, cenoura, manga e abacate.',
+        tags: { isVegan: true, isGlutenFree: true },
+      },
+      {
+        name: 'Sashimi de Tofu Defumado',
+        description: 'Tofu fatiado com molho ponzu cítrico.',
+        tags: { isVegan: true, isGlutenFree: true },
       },
     ],
   },
