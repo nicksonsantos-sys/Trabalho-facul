@@ -7,7 +7,7 @@ export const MENU_DATA: MenuSection[] = [
     title: 'Entradas',
     items: [
       {
-        name: '123 Edamame Olá',
+        name: 'Edamame',
         description: 'Soja verde no vapor, finalizada com sal marinho.',
         tags: { isVegan: true, isGlutenFree: true },
         allergens: { hasSoy: true },
@@ -26,16 +26,6 @@ export const MENU_DATA: MenuSection[] = [
         name: 'Gyoza de Legumes',
         description: 'Pastéis japoneses de legumes, cozidos e grelhados.',
         tags: { isVegan: true },
-      },
-      {
-        name: 'Temaki Vegano',
-        description: 'Cone de alga com pepino, cenoura, manga e abacate.',
-        tags: { isVegan: true, isGlutenFree: true },
-      },
-      {
-        name: 'Sashimi de Tofu Defumado',
-        description: 'Tofu fatiado com molho ponzu cítrico.',
-        tags: { isVegan: true, isGlutenFree: true },
       },
     ],
   },
@@ -92,6 +82,16 @@ export const MENU_DATA: MenuSection[] = [
         name: 'Veggie Roll',
         description: 'Pepino, manga, cenoura, avocado, cream cheese.',
         tags: { isVegan: true },
+      },
+            {
+        name: 'Temaki Vegano',
+        description: 'Cone de alga com pepino, cenoura, manga e abacate.',
+        tags: { isVegan: true, isGlutenFree: true },
+      },
+      {
+        name: 'Sashimi de Tofu Defumado',
+        description: 'Tofu fatiado com molho ponzu cítrico.',
+        tags: { isVegan: true, isGlutenFree: true },
       },
     ],
   },
