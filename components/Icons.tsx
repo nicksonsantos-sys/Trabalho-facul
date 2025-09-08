@@ -33,11 +33,10 @@ export const StarIcon = createIcon<IconProps>(({ className, title }) => (
 
 // FIX: Removed trailing comma from generic type argument list.
 export const SoyIcon = createIcon<IconProps>(({ className, title }) => (
-  <BaseIcon className={className} title={title}>
-    <path d="M27 8c-4.686 4.686-3.965 13.035-3.965 13.035S31.314 21.686 36 17s4.006-12.965 4.006-12.965S31.686 3.314 27 8Z" />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M23.035 21.035L31 13.07m-7.965 7.965S22.314 12.686 27 8s13.006-3.965 13.006-3.965S40.686 12.314 36 17s-12.965 4.035-12.965 4.035Z" />
-    <path d="M20 21c3.85 3.843 2.971 10.971 2.971 10.971s-7.122.872-10.97-2.971c-3.85-3.843-2.969-10.971-2.969-10.971S16.151 17.157 20 21Z" />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M22.971 31.971L16.001 25m6.97 6.971s.878-7.128-2.97-10.971c-3.85-3.843-10.969-2.971-10.969-2.971S8.151 25.157 12 29c3.85 3.843 10.971 2.971 10.971 2.971ZM23 4v40" />
+  <BaseIcon className={className} title={title} viewBox="0 0 48 48">
+    <path fill="currentColor" d="M30 4c-5.918 5.918-4.992 16.516-4.992 16.516S39.952 19.043 45 14s5.008-16.438 5.008-16.438S40.918 0.082 35 6Z" />
+    <path fill="currentColor" d="M25 21c4.864 4.856 3.766 13.886 3.766 13.886s-9.018 1.104-13.886-3.766c-4.864-4.856-3.764-13.886-3.764-13.886S20.136 16.144 25 21Z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M25 4v40" />
   </BaseIcon>
 ));
 
