@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EggIcon, GlutenIcon, MilkIcon, SoyIcon, StarIcon } from './Icons';
+import { AlcoolIcon, EggIcon, GlutenIcon, MilkIcon, SoyIcon, StarIcon } from './Icons';
 
 const Footer: React.FC = () => {
   return (
@@ -35,6 +35,10 @@ const Footer: React.FC = () => {
           <div className="flex items-center gap-2">
             <MilkIcon />
             <span>Contém Leite</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <AlcoolIcon />
+            <span>Contém Álcool</span>
           </div>
         </div>
         <div className="mt-8 border-t border-white/20 pt-4 text-center text-xs text-white/50">
