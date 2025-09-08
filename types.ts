@@ -12,6 +12,7 @@ export interface MenuItem {
     hasGluten?: boolean;
     hasEgg?: boolean;
     hasMilk?: boolean;
+    hasAlcool?: boolean;
   };
 }
 
