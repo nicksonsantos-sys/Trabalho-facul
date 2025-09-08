@@ -61,6 +61,6 @@ export const MilkIcon = createIcon<IconProps>(({ className, title }) => (
 
 export const AlcoolIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 011 1v2.5a.5.5 0 01-1 0V3a1 1 0 00-1-1h-2a1 1 0 00-1 1v1.5a.5.5 0 01-1 0V3a1 1 0 011-1h2zM7.5 7.5a.5.5 0 011 0V9a.5.5 0 01-1 0V7.5zM12 7.5a.5.5 0 011 0V9a.5.5 0 01-1 0V7.5zM5 12a.5.5 0 011 0V15a.5.5 0 01-1 0V12zM15 12a.5.5 0 011 0V15a.5.5 0 01-1 0V12zM9.5 17a.5.5 0 011 0V18a.5.5 0 01-1 0v-1z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M547 2190q227 2 394-35 41-9 72.5-40.5t48-74 24.5-85.5 8-84v-589q0-156-70-349-17-46-64-112.5T868 700t-80.5-107.5T752 514V139q0-71-12.5-105T692 0H402q-36 0-48 33.5T342 139v375q0 25-35.5 78.5T226 700t-92 120.5T70 933Q0 1114 0 1282v589q0 41 8 83.5t24.5 85.5 47.5 74.5 72 40.5q164 37 395 35zM465 138h162v393q0 47 29 107.5T721.5 751 801 872.5 864 997q62 164 62 280v581q0 75-20 112t-83 48q-132 23-276 23t-276-23q-64-11-84-48t-20-112v-581q0-116 62-280 20-55 62.5-124.5T371 751t65.5-112.5T465 531V138z" />
   </BaseIcon>
 ));
