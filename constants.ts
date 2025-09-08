@@ -80,7 +80,7 @@ export const MENU_DATA: MenuSection[] = [
     items: [
       {
         name: 'Veggie Roll',
-        description: 'Pepino, manga, cenoura, avocado, cream cheese.',
+        description: 'Pepino, manga, cenoura, abacate, cream cheese.',
         tags: { isVegan: true },
       },
             {
@@ -143,19 +143,19 @@ export const MENU_DATA: MenuSection[] = [
     title: 'Bebidas',
     items: [
       {
-        name: 'Chá Verde',
+        name: 'Chá Verde 350ml',
         description: 'Quente ou gelado.',
         tags: { isVegan: true, isGlutenFree: true },
       },
       {
-        name: 'Suco Natural',
+        name: 'Suco Natural 350ml',
         description: 'Laranja, abacaxi ou maracujá.',
         tags: { isVegan: true, isGlutenFree: true },
       },
-      { name: 'Refrigerante de Cola', description: 'Lata 350ml.', tags: {} },
-      { name: 'Água', description: 'Com ou sem gás.', tags: {} },
-      { name: 'Saquerinha', description: 'Morango ou maracujá.', tags: {} },
-      { name: 'Saquê', description: 'Dose ou garrafa.', tags: {} },
+      { name: 'Refrigerante de Cola 350ml', description: '', tags: {} },
+      { name: 'Água 350ml', description: 'Com ou sem gás.', tags: {} },
+      { name: 'Saquerinha 350ml', description: 'Morango ou maracujá.', tags: {} },
+      { name: 'Saquê 750ml', description: 'Dose ou garrafa.', tags: {} },
     ],
   },
 ];
