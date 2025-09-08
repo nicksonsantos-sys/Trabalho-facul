@@ -28,6 +28,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             {item.allergens?.hasGluten && <GlutenIcon title="Contém Glúten" />}
             {item.allergens?.hasEgg && <EggIcon title="Contém Ovo" />}
             {item.allergens?.hasMilk && <MilkIcon title="Contém Leite" />}
+            {item.allergens?.hasAlcool && <AlcoolIcon title="Contém Alcool" />}
         </div>
       </div>
     </div>

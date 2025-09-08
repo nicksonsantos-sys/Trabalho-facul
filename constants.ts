@@ -155,7 +155,7 @@ export const MENU_DATA: MenuSection[] = [
       { name: 'Refrigerante de Cola 350ml', description: '', tags: {} },
       { name: 'Água 350ml', description: 'Com ou sem gás.', tags: {} },
       { name: 'Saquerinha 350ml', description: 'Morango ou maracujá.', tags: {} },
-      { name: 'Saquê 750ml', description: 'Dose ou garrafa.', tags: {} },
+      { name: 'Saquê 750ml', description: 'Dose ou garrafa.', tags: {}, allergens: { hasAlcool : true }},
     ],
   },
 ];
