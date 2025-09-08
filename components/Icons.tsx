@@ -55,12 +55,12 @@ export const EggIcon = createIcon<IconProps>(({ className, title }) => (
 // FIX: Removed trailing comma from generic type argument list.
 export const MilkIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path fillRule="evenodd" d="M33.147 42.5h-17.59l-5.63-37h28.146zM11.166 13.64h25.823" clipRule="evenodd" />
+    <path fillRule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm4 3a1 1 0 00-1 1v1.586l-1.707 1.707a1 1 0 001.414 1.414L9 9.414V11a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414L12 8.586V6a1 1 0 00-1-1H9z" clipRule="evenodd" />
   </BaseIcon>
 ));
 
 export const AlcoolIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path stroke-linecap="round" stroke-linejoin="round" d="M500 2000q-253 2-394-26q-48-10-77-64T0 1784v-399q0-151 42-291t99-193q60-56 124.5-159T343 592v-20h318v20q13 47 77.5 150T863 901q56 53 96.5 192.5T1000 1385v399q0 73-27.5 127t-74.5 63q-141 28-398 26zM394 0h217q17 0 26 3t16.5 18.5T661 66v386H343V66q0-29 7.5-44.5t17-18.5T394 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
   </BaseIcon>
 ));
