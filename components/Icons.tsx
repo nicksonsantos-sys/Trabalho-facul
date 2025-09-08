@@ -48,7 +48,7 @@ export const GlutenIcon = createIcon<IconProps>(({ className, title }) => (
 // FIX: Removed trailing comma from generic type argument list.
 export const EggIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path d="M19 14.083c0 4.154-2.966 6.74-7 6.917c-4.2 0-7-2.763-7-6.917C5 8.545 8.5 2.993 12 3c3.5.007 7 5.545 7 11.083z" />
+    <path d="M10 2a8 8 0 00-8 8c0 4.42 3.58 8 8 8s8-3.58 8-8c0-4.42-3.58-8-8-8zm0 14a6 6 0 110-12 6 6 0 010 12z" /><path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
   </BaseIcon>
 ));
 
@@ -61,6 +61,6 @@ export const MilkIcon = createIcon<IconProps>(({ className, title }) => (
 
 export const AlcoolIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path stroke-linecap="round" stroke-linejoin="round" d="M547 2190q227 2 394-35 41-9 72.5-40.5t48-74 24.5-85.5 8-84v-589q0-156-70-349-17-46-64-112.5T868 700t-80.5-107.5T752 514V139q0-71-12.5-105T692 0H402q-36 0-48 33.5T342 139v375q0 25-35.5 78.5T226 700t-92 120.5T70 933Q0 1114 0 1282v589q0 41 8 83.5t24.5 85.5 47.5 74.5 72 40.5q164 37 395 35zM465 138h162v393q0 47 29 107.5T721.5 751 801 872.5 864 997q62 164 62 280v581q0 75-20 112t-83 48q-132 23-276 23t-276-23q-64-11-84-48t-20-112v-581q0-116 62-280 20-55 62.5-124.5T371 751t65.5-112.5T465 531V138z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
   </BaseIcon>
 ));
