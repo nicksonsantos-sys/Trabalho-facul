@@ -55,7 +55,7 @@ export const EggIcon = createIcon<IconProps>(({ className, title }) => (
 // FIX: Removed trailing comma from generic type argument list.
 export const MilkIcon = createIcon<IconProps>(({ className, title }) => (
   <BaseIcon className={className} title={title}>
-    <path fillRule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm4 3a1 1 0 00-1 1v1.586l-1.707 1.707a1 1 0 001.414 1.414L9 9.414V11a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414L12 8.586V6a1 1 0 00-1-1H9z" clipRule="evenodd" />
+    <path fillRule="evenodd" d="M33.147 42.5h-17.59l-5.63-37h28.146zM11.166 13.64h25.823" clipRule="evenodd" />
   </BaseIcon>
 ));
 
