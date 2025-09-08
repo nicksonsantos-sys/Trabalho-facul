@@ -33,10 +33,8 @@ export const StarIcon = createIcon<IconProps>(({ className, title }) => (
 
 // FIX: Removed trailing comma from generic type argument list.
 export const SoyIcon = createIcon<IconProps>(({ className, title }) => (
-  <BaseIcon className={className} title={title} viewBox="0 0 48 48">
-    <path fill="currentColor" d="M30 4c-5.918 5.918-4.992 16.516-4.992 16.516S39.952 19.043 45 14s5.008-16.438 5.008-16.438S40.918 0.082 35 6Z" />
-    <path fill="currentColor" d="M25 21c4.864 4.856 3.766 13.886 3.766 13.886s-9.018 1.104-13.886-3.766c-4.864-4.856-3.764-13.886-3.764-13.886S20.136 16.144 25 21Z" />
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M25 4v40" />
+  <BaseIcon className={className} title={title}>
+    <path fillRule="evenodd" d="M11 1a1 1 0 00-1 1v12a1 1 0 002 0V2a1 1 0 00-1-1zM5 11a1 1 0 011-1h1a1 1 0 110 2H6a1 1 0 01-1-1zM17 11a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM11 5a.5.5 0 011 0v1a.5.5 0 01-1 0V5zM11 9a.5.5 0 011 0v1a.5.5 0 01-1 0V9zM11 13a.5.5 0 011 0v1a.5.5 0 01-1 0v-1z" clipRule="evenodd" />
   </BaseIcon>
 ));
 
