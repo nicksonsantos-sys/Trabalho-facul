@@ -1,6 +1,6 @@
 import React from 'react';
 import { MenuItem as MenuItemType } from '../types';
-import { EggIcon, GlutenIcon, MilkIcon, SoyIcon, StarIcon } from './Icons';
+import { AlcoolIcon, EggIcon, GlutenIcon, MilkIcon, SoyIcon, StarIcon } from './Icons';
 
 interface MenuItemProps {
   item: MenuItemType;
